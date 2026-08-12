@@ -4,7 +4,7 @@
 const { useEffect, useRef, useState } = React;
 
 function HammerCursor({
-  src = 'images/cursor-hammer.png',
+  src = 'assets/cursor-hammer.png',
   size = 32,
   selector = 'a,button,[role="button"],[data-hammer],[style*="cursor:pointer"],[style*="cursor: pointer"]',
   chipColors = ['#4A321E', '#8A633C', '#3B3936'],
