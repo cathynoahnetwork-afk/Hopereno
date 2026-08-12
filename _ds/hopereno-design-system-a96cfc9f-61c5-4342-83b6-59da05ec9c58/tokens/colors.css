@@ -1,0 +1,57 @@
+/* Base palette — low-saturation natural materials. Brand-specified values are marked SPEC. */
+:root{
+  --white:#FFFFFF;
+  --ivory:#F8F6F2;        /* SPEC — Ivory White, page background */
+  --clay-100:#F4F1EB;     /* derived — hover tint on ivory */
+  --clay-200:#EEE9E0;     /* derived — subtle fill */
+  --clay-300:#E8E1D5;     /* SPEC — Light Wood, cards & sections */
+  --clay-400:#DDD6C9;     /* derived — borders on beige */
+  --clay-500:#D3CBBC;     /* SPEC — Warm Beige, brand primary */
+  --clay-600:#BDB4A3;     /* derived — pressed / deep beige */
+  --stone-400:#A7A093;    /* derived — disabled text */
+  --stone-500:#8B8478;    /* SPEC — Warm Gray, secondary text */
+  --stone-600:#6B6459;    /* derived */
+  --charcoal-700:#514E49; /* derived */
+  --charcoal-800:#3B3936; /* SPEC — Charcoal, headings/buttons/icons */
+  --charcoal-900:#2A2926; /* derived — pressed charcoal */
+
+  /* Semantic hues — desaturated naturals, derived (not brand-specified) */
+  --sage:#6E7A5E;
+  --sage-tint:#EAEDE4;
+  --ochre:#A8813F;
+  --ochre-tint:#F3EBDC;
+  --terracotta:#9C5A4E;
+  --terracotta-tint:#F1E4E1;
+
+  /* Semantic aliases */
+  --bg-page:var(--ivory);
+  --bg-section:var(--clay-300);
+  --bg-brand:var(--clay-500);
+  --surface-card:var(--white);
+  --surface-card-alt:var(--clay-300);
+  --surface-sunken:var(--clay-200);
+  --surface-inverse:var(--charcoal-800);
+
+  --text-heading:var(--charcoal-800);
+  --text-body:var(--charcoal-700);
+  --text-muted:var(--stone-500);
+  --text-disabled:var(--stone-400);
+  --text-inverse:var(--ivory);
+  --text-link:var(--charcoal-800);
+
+  --border-subtle:#E4DED4;
+  --border-default:var(--clay-400);
+  --border-strong:var(--charcoal-800);
+  --border-focus:var(--charcoal-800);
+
+  --accent:var(--charcoal-800);
+  --accent-hover:var(--charcoal-700);
+  --accent-press:var(--charcoal-900);
+
+  --status-success:var(--sage);
+  --status-success-bg:var(--sage-tint);
+  --status-warning:var(--ochre);
+  --status-warning-bg:var(--ochre-tint);
+  --status-danger:var(--terracotta);
+  --status-danger-bg:var(--terracotta-tint);
+}

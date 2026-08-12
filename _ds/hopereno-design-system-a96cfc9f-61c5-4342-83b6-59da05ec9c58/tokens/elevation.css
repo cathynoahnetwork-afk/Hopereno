@@ -1,0 +1,9 @@
+:root{
+  --shadow-none:none;
+  --shadow-xs:0 1px 2px rgba(59,57,54,.04);
+  --shadow-sm:0 2px 8px rgba(59,57,54,.05);
+  --shadow-md:0 6px 20px rgba(59,57,54,.06);
+  --shadow-lg:0 16px 40px rgba(59,57,54,.08);
+  --shadow-focus:0 0 0 3px rgba(59,57,54,.18);
+  --hairline:1px solid var(--border-subtle);
+}

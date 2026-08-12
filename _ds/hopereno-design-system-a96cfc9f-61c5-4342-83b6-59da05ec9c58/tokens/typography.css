@@ -1,0 +1,24 @@
+:root{
+  --font-display:"Manrope","Noto Sans SC","HarmonyOS Sans","MiSans",system-ui,sans-serif;
+  --font-body:"Inter","Noto Sans SC","HarmonyOS Sans","MiSans",system-ui,sans-serif;
+
+  --weight-light:300;--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-extrabold:800;
+
+  --text-display-1:64px;--text-display-2:48px;
+  --text-h1:40px;--text-h2:32px;--text-h3:24px;--text-h4:20px;
+  --text-body-lg:18px;--text-body:16px;--text-body-sm:14px;--text-caption:13px;--text-overline:12px;
+
+  --leading-tight:1.12;--leading-snug:1.25;--leading-normal:1.5;--leading-relaxed:1.7;
+  --tracking-tight:-0.02em;--tracking-snug:-0.01em;--tracking-normal:0;--tracking-wide:0.08em;--tracking-overline:0.16em;
+
+  /* Composite roles */
+  --type-display:var(--weight-bold) var(--text-display-1)/var(--leading-tight) var(--font-display);
+  --type-h1:var(--weight-bold) var(--text-h1)/var(--leading-snug) var(--font-display);
+  --type-h2:var(--weight-semibold) var(--text-h2)/var(--leading-snug) var(--font-display);
+  --type-h3:var(--weight-semibold) var(--text-h3)/var(--leading-snug) var(--font-display);
+  --type-h4:var(--weight-semibold) var(--text-h4)/var(--leading-snug) var(--font-display);
+  --type-body:var(--weight-regular) var(--text-body)/var(--leading-relaxed) var(--font-body);
+  --type-body-sm:var(--weight-regular) var(--text-body-sm)/var(--leading-normal) var(--font-body);
+  --type-label:var(--weight-medium) var(--text-body-sm)/1.4 var(--font-body);
+  --type-overline:var(--weight-medium) var(--text-overline)/1.4 var(--font-body);
+}

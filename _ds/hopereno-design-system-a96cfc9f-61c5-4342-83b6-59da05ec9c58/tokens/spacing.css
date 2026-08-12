@@ -1,0 +1,14 @@
+:root{
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;
+  --space-8:32px;--space-10:40px;--space-12:48px;--space-16:64px;--space-20:80px;
+  --space-24:96px;--space-30:120px;
+
+  --section-y:96px;          /* compact section rhythm */
+  --section-y-lg:120px;      /* hero / feature sections */
+  --container-max:1280px;
+  --content-max:1200px;
+  --gutter:24px;
+  --grid-columns:12; /* @kind other */
+  --card-padding:32px;       /* 24–40px range */
+  --card-padding-lg:40px;
+}
