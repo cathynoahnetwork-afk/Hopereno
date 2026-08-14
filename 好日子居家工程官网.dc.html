@@ -214,7 +214,7 @@
       </div>
       <div data-hero-safe="1" style="position:relative;width:100%;max-width:900px;margin:0 auto;padding:clamp(24px,5vw,64px) 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px">
         <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">一站式装修工程服务</span>
-        <h1 style="margin:0;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">建好每个空间<br>守住每份信任</h1>
+        <h1 style="margin:0;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">建好每个空间<br>守住每份信任</h1>
         <p style="margin:0;max-width:44ch;font:var(--type-body);font-size:16px;line-height:1.8;color:var(--charcoal-700);text-wrap:pretty">提供一站式装修、翻新、维修与定制服务，让每一个家都更安心、更舒适。从丈量到验收，进度实时更新，报价透明清楚。</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;padding-top:8px">
           <div onClick="{{ goContact }}"><x-import component-from-global-scope="HoperenoDesignSystem_a96cfc.Button" size="lg" hint-size="auto,54px">预约免费咨询</x-import></div>
@@ -228,7 +228,7 @@
       <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(28px,4vw,48px)">
         <sc-for list="{{ stats }}" as="st" hint-placeholder-count="3">
           <div style="display:flex;align-items:center;justify-content:center;gap:14px;padding:0 clamp(12px,2vw,32px);border-left:1px solid var(--border-subtle)">
-            <span style="font:var(--weight-bold) clamp(40px,4.6vw,60px)/1 var(--font-display);letter-spacing:-0.03em;color:var(--text-heading)">{{ st.value }}</span>
+            <span style="font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,4.6vw,60px);line-height:1;letter-spacing:-0.03em;color:var(--text-heading)">{{ st.value }}</span>
             <span style="font: var(--weight-medium) 15px/1.45 var(--font-body); color: var(--text-muted); white-space: pre-line; font-size: 24px">{{ st.label }}</span>
           </div>
         </sc-for>
@@ -348,7 +348,7 @@
       <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
         <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">关于我们</span>
         <div style="display:flex;flex-direction:column;gap:clamp(20px,3vw,32px)">
-          <h1 style="margin:0;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">
+          <h1 style="margin:0;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">
             <span style="font-weight:var(--weight-medium);color:var(--charcoal-700)">帮你</span><span style="font-weight:800;color:var(--text-heading)">省心</span><span style="font-weight:var(--weight-medium);color:var(--charcoal-700)">、</span><span style="font-weight:800;color:var(--text-heading)">省事</span><span style="font-weight:var(--weight-medium);color:var(--charcoal-700)">、</span><span style="font-weight:800;color:var(--text-heading)">省钱</span><br>
             <span style="font-weight:var(--weight-medium);color:var(--charcoal-700)">的一站式装修公司</span>
           </h1>
@@ -450,7 +450,7 @@
       </div>
       <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
         <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">服务项目</span>
-        <h1 style="margin:0;max-width:22ch;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">一次解决所有装修需求</h1>
+        <h1 style="margin:0;max-width:22ch;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">一次解决所有装修需求</h1>
         <p style="margin:0;max-width:50ch;font:var(--type-body);font-size:18px;line-height:1.8;color:var(--text-muted);text-wrap:pretty">从一颗漏水的水龙头，到一整间屋子的翻新，都由同一支团队负责——不必自己找师傅、对时间、追进度。</p>
       </div>
     </section>
@@ -585,7 +585,7 @@
       <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:clamp(32px,5vw,64px);align-items:center">
         <div style="display:flex;flex-direction:column;gap:20px">
           <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">{{ detail.tag }}</span>
-          <h1 style="margin:0;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">{{ detail.title }}</h1>
+          <h1 style="margin:0;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">{{ detail.title }}</h1>
           <p style="margin:0;max-width:48ch;font:var(--type-body);font-size:18px;line-height:1.8;color:var(--text-muted);text-wrap:pretty">{{ detail.long }}</p>
           <div style="display:flex;flex-direction:column;max-width:46ch;padding-top:8px">
             <div style="display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:14px 0;border-top:1px solid var(--border-subtle)">
@@ -676,7 +676,7 @@
       </div>
       <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
         <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">工程案例</span>
-        <h1 style="margin:0;max-width:22ch;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">看看我们的作品</h1>
+        <h1 style="margin:0;max-width:22ch;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">看看我们的作品</h1>
         <p style="margin:0;max-width:48ch;font:var(--type-body);font-size:18px;line-height:1.8;color:var(--text-muted);text-wrap:pretty">依空间类型筛选，点开任一张照片可看施工细节与做法说明。</p>
       </div>
     </section>
@@ -712,7 +712,7 @@
             </div>
             <div style="order:1;padding:clamp(28px,3vw,44px);display:flex;flex-direction:column;justify-content:flex-end;gap:14px">
               <span style="font:var(--weight-medium) 14px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">{{ p.sub }}</span>
-              <h3 style="margin:0;font:var(--weight-bold) clamp(24px,2.6vw,32px)/1.25 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">{{ p.title }}</h3>
+              <h3 style="margin:0;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(24px,2.6vw,32px);line-height:1.25;letter-spacing:-0.02em;color:var(--text-heading)">{{ p.title }}</h3>
               <p style="margin:0;max-width:64ch;font:var(--type-body);font-size:16px;line-height:1.8;color:var(--charcoal-700);text-wrap:pretty">{{ p.caption }}</p>
               <div style="display:flex;flex-direction:column;gap:12px;padding-top:16px;margin-top:4px;border-top:1px solid var(--border-subtle)">
                 <sc-for list="{{ p.facts }}" as="f" hint-placeholder-count="3">
@@ -739,7 +739,7 @@
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap">
           <div style="position:relative;display:flex;flex-direction:column;gap:10px">
             <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">工程进度</span>
-            <h1 onClick="{{ toggleProjects }}" style="margin:0;cursor:pointer;display:flex;align-items:center;gap:14px;font:var(--weight-bold) clamp(32px,4.4vw,52px)/1.2 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">{{ portal.projectName }}<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></h1>
+            <h1 onClick="{{ toggleProjects }}" style="margin:0;cursor:pointer;display:flex;align-items:center;gap:14px;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(32px,4.4vw,52px);line-height:1.2;letter-spacing:-0.02em;color:var(--text-heading)">{{ portal.projectName }}<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></h1>
             <sc-if value="{{ projectsOpen }}" hint-placeholder-val="{{ false }}">
               <div style="position:absolute;top:100%;left:0;z-index:20;min-width:280px;background:var(--white);border:1px solid var(--border-subtle);border-radius:14px;box-shadow:var(--shadow-md);padding:8px;display:flex;flex-direction:column">
                 <sc-for list="{{ portal.projects }}" as="pj" hint-placeholder-count="2">
@@ -764,7 +764,7 @@
         <div style="order:1;background:var(--charcoal-800);border-radius:20px;padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:clamp(20px,2.6vw,30px)">
           <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap">
             <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--clay-400)">整体进度</span>
-            <span style="font:var(--weight-bold) clamp(52px,8vw,104px)/1 var(--font-display);letter-spacing:-0.03em;color:var(--ivory)">{{ portal.shownPercent }}%</span>
+            <span style="font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(52px,8vw,104px);line-height:1;letter-spacing:-0.03em;color:var(--ivory)">{{ portal.shownPercent }}%</span>
           </div>
           <div style="height:16px;border-radius:999px;background:rgba(248,246,242,.18);overflow:hidden">
             <div style="height:100%;width:{{ portal.shownPercentW }};border-radius:999px;background:var(--ivory)"></div>
@@ -834,7 +834,7 @@
       </div>
       <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
         <span style="font:var(--weight-medium) 17px/1.4 var(--font-body);letter-spacing:.16em;color:var(--text-muted)">联系我们</span>
-        <h1 style="margin:0;max-width:20ch;font:var(--weight-bold) clamp(40px,7vw,80px)/1.14 var(--font-display);letter-spacing:-0.02em;color:var(--text-heading)">免费聊聊你的需求</h1>
+        <h1 style="margin:0;max-width:20ch;font-weight:var(--weight-bold);font-family:var(--font-display);font-size:clamp(40px,7vw,80px);line-height:1.14;letter-spacing:-0.02em;color:var(--text-heading)">免费聊聊你的需求</h1>
         <p style="margin:0;max-width:48ch;font:var(--type-body);font-size:18px;line-height:1.8;color:var(--text-muted);text-wrap:pretty">免费现场丈量与需求访谈，我们会给您一份诚实的预算区间。一般在一个工作日内回覆。</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;padding-top:8px">
           <x-import component-from-global-scope="HoperenoDesignSystem_a96cfc.Button" size="lg" icon-left="phone" hint-size="auto,54px">立即致电 +6016-7000 319</x-import>
